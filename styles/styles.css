@@ -522,3 +522,15 @@ button.menuIcon:focus {
 .navBar .slideOutNav .mainMenu a:hover, .navBar .slideOutNav .mainMenu a:focus {
   color: rgba(255, 255, 255, 0.5);
 }
+.navBar .slideOutNav .legal {
+  font-family: "Jakarta Sans";
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+.navBar .slideOutNav .legal a {
+  color: rgba(225, 255, 255, 0.5);
+}
+.navBar .slideOutNav .legal a:hover, .navBar .slideOutNav .legal a:focus {
+  color: white;
+}
