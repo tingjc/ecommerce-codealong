@@ -1,0 +1,22 @@
+.gallery {
+    background-color: $tertiary;
+    padding: 90px 0;
+    margin: 0;
+
+    h2 {
+        max-width: 500px;
+    }
+} //end .gallery
+
+.galleryItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .item {
+        width: 15%;
+        img {
+            width: 100%;
+            display: block;
+        }
+    } // end .item
+} //end .galleryItems
