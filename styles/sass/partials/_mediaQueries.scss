@@ -32,6 +32,11 @@
             width: 70%;
         }
     } //end footer
+
+    .mapFormContainer {
+        flex-direction: column;
+        align-items: center;
+    }
 } //end max 800px;
 
 @media (max-width: 500px) {
