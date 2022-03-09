@@ -778,12 +778,19 @@ footer .social a:hover, footer .social afocus {
   border-top: none;
 }
 .contactForm select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   font-family: "Jakarta Sans";
   font-size: 0.8rem;
   line-height: 1.2rem;
   color: #084b6d;
   text-transform: uppercase;
   background-color: #fff;
+  background-image: url(../assets/caret-down-solid.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 95% center;
   border: none;
   border-bottom: 1px solid #eee;
   margin-bottom: 40px;
@@ -816,6 +823,15 @@ footer .social a:hover, footer .social afocus {
   footer .footerNav nav ul {
     width: auto;
   }
+
+  .map {
+    width: 45%;
+  }
+
+  .contactForm {
+    width: calc(55% - 50px);
+    margin-left: 50px;
+  }
 }
 @media (max-width: 800px) {
   /* all of our styles for TABLET devices will go within this breakpoin */
@@ -831,6 +847,10 @@ footer .social a:hover, footer .social afocus {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .mapFormContainer .map, .mapFormContainer form {
+    width: 85%;
+    margin: 40px;
   }
 }
 @media (max-width: 500px) {
@@ -872,5 +892,9 @@ footer .social a:hover, footer .social afocus {
   }
   footer .socialIcons {
     margin-bottom: 30px;
+  }
+
+  .mapContainer .map {
+    width: 100%;
   }
 }

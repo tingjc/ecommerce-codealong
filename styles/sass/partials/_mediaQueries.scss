@@ -23,6 +23,15 @@
         }
 
     } //end .footer
+
+    .map {
+        width: 45%;
+    }
+
+    .contactForm {
+        width: calc(55% - 50px);
+        margin-left: 50px;
+    }
 } //end max 1000px
 
 @media (max-width: 800px) {
@@ -36,6 +45,11 @@
     .mapFormContainer {
         flex-direction: column;
         align-items: center;
+        
+        .map, form {
+            width: 85%;
+            margin: 40px;
+        }
     }
 } //end max 800px;
 
@@ -77,6 +91,12 @@
        }
        .socialIcons {
            margin-bottom: 30px;
+       }
+   }
+
+   .mapContainer {
+       .map {
+           width: 100%;
        }
    }
 
