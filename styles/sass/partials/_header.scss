@@ -24,4 +24,31 @@ header {
 
     }
 
+    
+
 } //end header
+
+//contactHeader and contactContent
+
+.contactHeader {
+    background-color: $fourth;
+    padding-top: 120px;
+
+    .contactContent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+} // .contactHeader END
+
+.contactHeader::after {
+    content: "";
+    width: 100%;
+    height: 150px;
+    background-image: url(../assets/wave.svg);
+    background-color: $fourth;
+    background-repeat: no-repeat;
+    background-size: 100% 150px;
+}
